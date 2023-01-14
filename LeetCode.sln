@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Easy", "Easy\Easy.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuxiliaryClasses", "AuxiliaryClasses\AuxiliaryClasses.csproj", "{F5EFF769-E98E-4368-BDF4-29F6E709BEE3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Medium", "Medium\Medium.csproj", "{65D0114E-69B4-451E-97A5-CCD2AD2CB4FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{F5EFF769-E98E-4368-BDF4-29F6E709BEE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5EFF769-E98E-4368-BDF4-29F6E709BEE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5EFF769-E98E-4368-BDF4-29F6E709BEE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65D0114E-69B4-451E-97A5-CCD2AD2CB4FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65D0114E-69B4-451E-97A5-CCD2AD2CB4FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65D0114E-69B4-451E-97A5-CCD2AD2CB4FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65D0114E-69B4-451E-97A5-CCD2AD2CB4FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
