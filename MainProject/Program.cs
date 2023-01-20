@@ -1,12 +1,20 @@
-﻿using AuxiliaryClasses;
-using Easy;
+﻿using Medium;
 
-ListNode? list = null;
+char[][] board = 
+    {new[] {'a', 'b'}, new[] {'c', 'd'}};
+// {
+//     new[] {'A', 'B', 'C', 'E'},
+//     new[] {'S', 'F', 'C', 'S'},
+//     new[] {'A', 'D', 'E', 'E'}
+// };
+// {
+// new[] {'A', 'B', 'C', 'E'},
+// new[] {'S', 'F', 'E', 'S'},
+// new[] {'A', 'D', 'E', 'E'}
+// };
 
-list = ReverseLinkedList.Solve(list);
+// Should be true
 
-while (list != null)
-{
-    Console.WriteLine(list.val);
-    list = list.next;
-}
+SearchWord sw = new SearchWord();
+
+Console.WriteLine(sw.Solve(board, "abdc"));
