@@ -2,6 +2,20 @@
 
 public class SearchWord
 {
+    // TEST DATA
+    //char[][] board = 
+      //  {new[] {'a', 'b'}, new[] {'c', 'd'}};
+    // {
+    //     new[] {'A', 'B', 'C', 'E'},
+    //     new[] {'S', 'F', 'C', 'S'},
+    //     new[] {'A', 'D', 'E', 'E'}
+    // };
+    // {
+    // new[] {'A', 'B', 'C', 'E'},
+    // new[] {'S', 'F', 'E', 'S'},
+    // new[] {'A', 'D', 'E', 'E'}
+    // };
+    
     private HashSet<(int, int)> SeenCells { get; set; } = new();
     public bool Solve(char[][] board, string word)
     {
