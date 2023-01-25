@@ -1,5 +1,5 @@
 ﻿using Easy;
 
-int[] nums = {1, 1, 1, 1};
+int[] nums = {1,15,6,3};
 
-Console.WriteLine(NumIdenticalPairs.Solve(nums));
+Console.WriteLine(DifferenceOfSum.Solve(nums));
