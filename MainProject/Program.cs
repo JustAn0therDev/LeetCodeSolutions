@@ -1,5 +1,5 @@
 ﻿using Easy;
 
-int[] nums = { -4, -3, -2, -1, 1, 2, 3, 4 };
+int[] nums = {1, 1, 1, 1};
 
-Console.WriteLine(MaximumCount.Solve(nums));
+Console.WriteLine(NumIdenticalPairs.Solve(nums));
