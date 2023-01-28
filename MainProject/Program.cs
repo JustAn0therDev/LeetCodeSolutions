@@ -1,10 +1,14 @@
-﻿using Easy;
+﻿using Medium;
+using AuxiliaryClasses;
 
-int[] nums = {1,15,6,3};
+TreeNode root = new(38, 
+        new TreeNode(43, 
+            new TreeNode(16, right: new(71))), 
+        new TreeNode(70, new(78, new(27, new TreeNode(71))), new TreeNode(91, new TreeNode(71))
+        )
+    );
+// the final sum should be 6.
 
-ParkingSystem ps = new(1, 1, 0);
+Console.WriteLine("\n\nResult: " + DeepestLeavesSum.Solve(root));
 
-Console.WriteLine(ps.AddCar(1));
-Console.WriteLine(ps.AddCar(2));
-Console.WriteLine(ps.AddCar(3));
-Console.WriteLine(ps.AddCar(1));
+// DeepestLeavesSum.Solve(root);
